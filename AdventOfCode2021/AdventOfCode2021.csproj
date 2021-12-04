@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Day1\Example1.txt" />
+    <None Remove="Day1\MyInput.txt" />
+    <None Remove="Day2\Example1.txt" />
+    <None Remove="Day2\MyInput.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Day1\Example1.txt" />
+    <EmbeddedResource Include="Day1\MyInput.txt" />
+    <EmbeddedResource Include="Day2\Example1.txt" />
+    <EmbeddedResource Include="Day2\MyInput.txt" />
+  </ItemGroup>
+</Project>
